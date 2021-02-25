@@ -1,0 +1,170 @@
+.header{
+  background-color: #f8f8f8;
+}
+.header .navbar-nav a{
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #000 !important;
+  font-weight: 600 !important;
+  font-family: 'Mukta', sans-serif;
+
+}
+.header .navbar{
+  padding: 30px 0;
+}
+
+
+
+
+.ok-dis{
+  height: 50px;
+  width: 50px;
+  border-radius:50px;
+  background-color: #2487cd;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon
+{
+  padding-top: 50px;
+}
+
+@media screen and (max-width:992px)
+{
+  .header .navbar-nav .nav-item
+  {
+    text-align:center !important;
+  }
+}
+
+/*------------------------------*/
+.about{
+  margin-top: 65px;
+}
+h1{
+  font-family: 'Mukta', sans-serif;
+}
+
+hr{
+  width: 50%;
+  height: 1px;
+}
+
+.baslik-aciklama{
+  font-size: 18px;
+  color:#666;
+  font-family: 'Mukta', sans-serif;
+}
+.about .web{
+  background-color: #1f1f20;
+  padding-top:8px;
+  padding-bottom: 8px;
+  position: relative;
+  font-family: 'Mukta', sans-serif;
+}
+.about .web a{
+  color:white;
+}
+.about .web-img img{
+  border-radius: 5px;
+}
+.about .web-baslik{
+  font-size: 18px;
+  color:#858586;
+  font-family: 'Mukta', sans-serif;
+}
+.about .web-aciklama{
+  font-family: 'Mukta', sans-serif;
+  font-size: 16px;
+  color:#858586;
+}
+.about .about-digera
+{
+  background-color: #e6e6e6;
+  padding-top:8px;
+  padding-bottom: 8px;
+  position: relative;
+  font-family: 'Mukta', sans-serif;
+}
+.about .about-digera a{
+  color:#4e4e4e;
+}
+.about .fa{
+  position: absolute;
+  right: 0px;
+  background-color: #2487cd;
+  padding: 12px 18px 12px 18px;
+  margin-top:-8px;
+}
+.img-aciklama{
+  color:#666;
+  font-family: 'Mukta', sans-serif;
+  font-size: 16px;
+}
+.portfolio ul{
+  padding-left:2px;
+}
+.portfolio li{
+  font-size: 15px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  border:1px solid #F2F2F2;
+  padding: 5px 10px;
+  font-family: 'Mukta', sans-serif;
+}
+.portfolio li:hover{
+  background-color: #2487cd;
+  color:white;
+}
+.features h4
+{
+  color:#666;
+  font-family: 'Mukta', sans-serif;
+}
+.features img{
+  border-radius: 30%;
+}
+
+.features p{
+  font-size: 16px;
+  font-family: 'Mukta', sans-serif;
+  color:#666;
+}
+.contact-us{
+  background-color: #eee;;
+}
+.contact-us input, .contact-us textarea{
+  width: 100%;
+  border:0;
+  font-family: 'Mukta', sans-serif;
+  font-size:14px;
+  padding:8px;
+  color:#eee;
+}
+.contact-us a{
+  background-color: white;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size:18px;
+  color:black;
+  font-family: 'Mukta', sans-serif;
+}
+.contact-us .send{
+  margin:30px 0px;
+}
+.footer{
+  background-color: #2487cd;
+}
+.footer .yukari{
+  font-size: 5em !important;
+  padding-top: 10px;
+}
+.footer{
+  font-family: 'Mukta', sans-serif;
+
+  color:white;
+}
+::placeholder{
+  color:#a7a7a7;
+}
